@@ -5,6 +5,9 @@
 			"persistent": true,
 			"cache": false
 		},
+		"//#check": {
+			"cache": false
+		},
 		"db:push": {}
 	}
 }
