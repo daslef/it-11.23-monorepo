@@ -7,7 +7,8 @@
 	},
 	"dependencies": {
 		"body-parser": "^1.20.3",
-		"express": "^5.0.1"
+		"express": "^5.0.1",
+		"database": "workspace:*"
 	},
 	"devDependencies": {
 		"nodemon": "^3.1.7"

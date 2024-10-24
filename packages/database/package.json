@@ -2,6 +2,7 @@
 	"name": "database",
 	"type": "module",
 	"scripts": {
+		"db:generate": "drizzle-kit generate",
 		"db:push": "drizzle-kit push"
 	},
 	"dependencies": {

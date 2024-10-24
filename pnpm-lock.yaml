@@ -35,6 +35,9 @@ importers:
       body-parser:
         specifier: ^1.20.3
         version: 1.20.3
+      database:
+        specifier: workspace:*
+        version: link:../../packages/database
       express:
         specifier: ^5.0.1
         version: 5.0.1
@@ -1458,7 +1461,6 @@ packages:
 
   libsql@0.4.6:
     resolution: {integrity: sha512-F5M+ltteK6dCcpjMahrkgT96uFJvVI8aQ4r9f2AzHQjC7BkAYtvfMSTWGvRBezRgMUIU2h1Sy0pF9nOGOD5iyA==}
-    cpu: [x64, arm64, wasm32]
     os: [darwin, linux, win32]
 
   lines-and-columns@1.2.4:

@@ -8,6 +8,9 @@
 		"//#check": {
 			"cache": false
 		},
-		"db:push": {}
+		"db:push": {},
+		"db:generate": {
+			"cache": false
+		}
 	}
 }
