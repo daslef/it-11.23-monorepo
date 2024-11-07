@@ -29,8 +29,6 @@
 		"extensions": {
 			"ts": "module"
 		},
-		"nodeArguments": [
-			"typescript"
-		]
+		"nodeArguments": ["typescript"]
 	}
 }
