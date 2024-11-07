@@ -21,3 +21,5 @@ app.post("/api/person", async (req, res) => {
 });
 
 app.listen(3000);
+
+export default app;

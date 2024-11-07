@@ -8,6 +8,9 @@
 		"//#check": {
 			"cache": false
 		},
+		"//#test": {
+			"cache": false
+		},
 		"db:pull": {},
 		"db:migrate": {},
 		"db:generate": {
