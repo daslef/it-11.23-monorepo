@@ -8,9 +8,11 @@
 		"//#check": {
 			"cache": false
 		},
-		"db:push": {},
+		"db:pull": {},
+		"db:migrate": {},
 		"db:generate": {
 			"cache": false
-		}
+		},
+		"db:studio": { "cache": false }
 	}
 }
