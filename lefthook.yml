@@ -7,7 +7,10 @@
 pre-commit:
   commands:
     format-and-lint:
-      run: pnpm biome check {staged_files} --write
+      run: pnpm biome check {staged_files} --write --no-errors-on-unmatched
+    unit-tests:
+      glob: "*.test.js"
+      run: node --test {staged_files}
 
 prepare-commit-msg:
   commands:
